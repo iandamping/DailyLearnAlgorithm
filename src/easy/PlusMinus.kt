@@ -19,9 +19,9 @@ fun plusMinus(arr: Array<Int>) {
             else -> zeroNumber++
         }
     }
-    println("${decimalFormat.format(positiveNumber.toDouble() / arr.size)}")
-    println("${decimalFormat.format(negativeNumber.toDouble() / arr.size)}")
-    println("${decimalFormat.format(zeroNumber.toDouble() / arr.size)}")
+    println(decimalFormat.format(positiveNumber.toDouble() / arr.size))
+    println(decimalFormat.format(negativeNumber.toDouble() / arr.size))
+    println(decimalFormat.format(zeroNumber.toDouble() / arr.size))
 
 }
 
